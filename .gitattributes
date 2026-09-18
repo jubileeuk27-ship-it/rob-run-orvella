@@ -1,0 +1,11 @@
+# See https://github.com/github/linguist
+# Normalize line endings
+# Language detection rules
+*.json linguist-detectable=false
+
+public/**/*.html linguist-vendored
+*.png binary
+
+src/**/*.tsx linguist-detectable
+src/*.ts linguist-detectable
+*.min.js linguist-generated
